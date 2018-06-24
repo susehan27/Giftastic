@@ -6,6 +6,11 @@ h1 {
     letter-spacing: 5px;
     font-size: 50px;
 }
+p {
+    font-family: 'Josefin Slab', serif;
+    margin:auto;
+    color: white;
+}
 body {
     background-color: #333333;
 }
@@ -41,7 +46,7 @@ body {
 .gifButtons {
     padding: 5px;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 15px;
     font-family: 'Dosis', sans-serif;
 }
 
