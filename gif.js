@@ -16,13 +16,14 @@ function displayGifs() {
         var results = response.data;
 
         for (var i=0; i < results.length; i++) {
-            var div = $("<div>");
+            var a = $("<a>");
             var image = $("<img>");
-            var rating = $("<p>").text("rating: " + results[i].rating);
+            var rating = $("<a>").text("rating: " + results[i].rating);
+            rating.addClass("rating");
             image.attr("src", results[i].images.fixed_height.url);
-            div.append(image);
-            div.append(rating);
-            $("#gifs").prepend(div);
+            a.append(image);
+            a.append(rating);
+            $("#gifs").prepend(a);
 
         }
     })

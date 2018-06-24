@@ -1,0 +1,75 @@
+h1 {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+body {
+    background-color: #333333;
+}
+#header {
+    background-color: #6666ff;
+    border-bottom: 10px solid;
+    border-bottom-color: #66ff99;
+}
+
+#mainBody {
+    padding: 20px;
+    height: auto;
+}
+
+#searchBar {
+    margin: auto;
+    padding: 20px;
+}
+
+#search {
+    border-radius: 10px;
+}
+
+#submitButton {
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#buttons {
+    margin: auto;
+}
+
+.gifButtons {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#gifs {
+    border-image: 50%;
+    padding: 40px;
+}
+
+img {
+    position: relative;
+    padding: 20px;
+}
+
+.rating {
+    border-style: solid;
+    border-width: .5px;
+    border-color: black;
+    border-radius: 10%;
+    padding: 2px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+#footer {
+    position: fixed;
+    background-color: #ff6666;
+    height: 20px;
+    bottom: 0;
+    border-top: solid 10px;
+    border-top-color: #ffffb3;
+}
