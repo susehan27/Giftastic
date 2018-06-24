@@ -17,9 +17,10 @@ function displayGifs() {
 
         for (var i=0; i < results.length; i++) {
             var a = $("<a>");
+            a.addClass("a");
             var image = $("<img>");
             image.addClass("gifClass");
-            var rating = $("<a>").text("rating: " + results[i].rating);
+            var rating = $("<span>").text("rating: " + results[i].rating);
             rating.addClass("rating");
             image.attr("src", results[i].images.fixed_height_still.url);
             image.attr("data-still", results[i].images.fixed_height_still.url);
